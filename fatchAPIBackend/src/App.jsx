@@ -4,7 +4,7 @@ import { useState } from "react"
 function App() {
   const [prodect ,setprodect] = useState([])
 
-  const getProdectApi = () => {
+  const getProdectApi  = () => {
     const api = "https://fakestoreapi.com/products"
     axios.get(api)
       .then(res => {
